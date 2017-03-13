@@ -9,16 +9,16 @@ let A = Matrix([
 ]);
 //Code here
 function degree(mtrx,v){
-  let sum= 0;
-  let degreelist= A(v);
+  let sum = 0
+  let degreelist = mtrx
   for(a=0;a<degreelist.length;a++){
-    let sum= sum+ degreelist(a)
+    }
+  return sum
 }
-return sum
-}
-function degreecentrality(mtrx,v){
-  let neighbors= A.size();
 
+function degreecentrality(mtrx,v){
+  let neighbors = [A(a,a)];
+    return A.div(v)
 }
 
 //Challenge
